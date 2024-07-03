@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="public/css/styles.css" />
+    <title>Guess secret number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Guess secret Number!</h1>
+      <p class="range">(Guess: 1 - 30)</p>
+      <button class="btn again">Again!</button>
+      <div class="answer hidden">...</div>
+    </header>
+    <main>
+      <section class="leftBox">
+        <p class="correct hidden">Correct Number:</p>
+        <input type="number" class="guess" placeholder=" " />
+        <button class="btn check">Guess..!</button>
+      </section>
+      <section class="rightBox">
+        <p class="message">Lets guess...:)</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Creative Solutions By Omar</p>
+      <a href="mailto:contact.alzubi@gmail.com">
+        <button>Get in touch</button>
+      </a>
+      <img
+        class="contact-logo"
+        src="public/imgs/Logo.jpg"
+        alt="computer screen with mug coffee and a phone on a surface"
+      />
+      <p id="currentYear">©</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
